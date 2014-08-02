@@ -1,0 +1,152 @@
+[33mcommit 7f631cbfcaec38de489a96382deaa7a41c3648fc[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Thu Jul 24 23:52:29 2014 +0530
+
+    updated production/app.php debug=true
+
+[33mcommit 91763aa1221e8cb43adf1cd4b67587a9bf059125[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Thu Jul 24 23:14:58 2014 +0530
+
+    database.php added collation
+
+[33mcommit 969883e69eceb4eb574d034f6889a593875d9023[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Thu Jul 24 23:04:30 2014 +0530
+
+    database.php issues updated
+
+[33mcommit 2286fc317b3e6c8d4eea040b3cb365dbdb6379c1[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Thu Jul 24 22:41:17 2014 +0530
+
+    boxfile issues updated
+
+[33mcommit fb9eb2b647158f832a78340706ec00d53a0eb536[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Thu Jul 24 22:26:29 2014 +0530
+
+    production database setting updated
+
+[33mcommit d7f204d94a8f006fde38f2fa55063f409653f538[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Thu Jul 24 21:59:10 2014 +0530
+
+    Boxfile updated error issue
+
+[33mcommit 97f014e75a5431e58a1c9a3f29077db96a1eb5e7[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Thu Jul 24 21:52:07 2014 +0530
+
+    updated variables for production 2
+
+[33mcommit 410372190ea9f9264d88361b14176b2a264b61b7[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Thu Jul 24 21:36:29 2014 +0530
+
+    updated variables for production
+
+[33mcommit 621471c6fd60db3705af0d0bfad719e8a35c8290[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Thu Jul 24 21:26:51 2014 +0530
+
+    updated files for pagodabox
+
+[33mcommit 472fd04cd55ca102ba86db9108449b734f05c22d[m
+Merge: 06825a2 78e0a5a
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Thu Jul 24 21:13:16 2014 +0530
+
+    updated files
+
+[33mcommit 06825a213af59224928371acf91ac410c5cdc52e[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Thu Jul 24 21:10:52 2014 +0530
+
+    updated files
+
+[33mcommit 78e0a5a0e52e90e3e38ee95689fd02cc6c320909[m
+Author: sandesh-TheAwakening <sandesh-TheAwakening@users.noreply.github.com>
+Date:   Thu Jul 24 18:53:46 2014 +0530
+
+    Update database.php
+
+[33mcommit 33f9f454d55be950c1a5be3fb01c8e025cc6050f[m
+Author: sandesh-TheAwakening <sandesh-TheAwakening@users.noreply.github.com>
+Date:   Thu Jul 24 18:53:19 2014 +0530
+
+    Update database.php
+
+[33mcommit 73aaa1df9b7b07e0a33b79f1ce7b255b6af3c7ef[m
+Author: sandesh-TheAwakening <sandesh-TheAwakening@users.noreply.github.com>
+Date:   Thu Jul 24 18:51:03 2014 +0530
+
+    Update Boxfile
+
+[33mcommit 145b120f9944c6d6865600a93ee2244cd4580591[m
+Author: sandesh-TheAwakening <sandesh-TheAwakening@users.noreply.github.com>
+Date:   Thu Jul 24 18:36:46 2014 +0530
+
+    Update database.php
+
+[33mcommit 8f4cc7dc76f6a1dc832b562237b9d18a695ccf59[m
+Author: sandesh-TheAwakening <sandesh-TheAwakening@users.noreply.github.com>
+Date:   Thu Jul 24 18:32:37 2014 +0530
+
+    Added migrate command
+
+[33mcommit 434af2953773dc6e4345a3c5e2425604e425e0e9[m
+Author: sandesh-TheAwakening <sandesh-TheAwakening@users.noreply.github.com>
+Date:   Thu Jul 24 17:51:46 2014 +0530
+
+    Removed Migrate hook
+
+[33mcommit bd97047dacbe5145c97dfc1828ef38ecab1e8901[m
+Author: sandesh-TheAwakening <sandesh-TheAwakening@users.noreply.github.com>
+Date:   Thu Jul 24 16:56:12 2014 +0530
+
+    Update Boxfile
+
+[33mcommit 00039e3ec0f6a195bd9887bedbfc27809a465e07[m
+Author: sandesh-TheAwakening <sandesh-TheAwakening@users.noreply.github.com>
+Date:   Thu Jul 24 16:37:41 2014 +0530
+
+    Boxfile database variables changed
+    
+    removed database name variable
+
+[33mcommit 242ff71aa2ef7f68202c6486410fd0156bee614f[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Thu Jul 24 01:04:03 2014 +0530
+
+    Modified Boxfile
+
+[33mcommit 45ef80d014871daaef2b00f67bd149bdb5e6e07e[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Wed Jul 23 23:54:19 2014 +0530
+
+    Configured environment variables
+
+[33mcommit 96058351afabe4250957bffc8f3f2efc89e9f3ad[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Wed Jul 23 23:29:19 2014 +0530
+
+    Modified Boxfile to add DB:SEED
+
+[33mcommit 1655bdc5622f5640226fb69f7742238c352727bc[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Wed Jul 23 23:13:28 2014 +0530
+
+    Added Boxfile
+
+[33mcommit 29834606f9b6da92f307215c04678c6da9093af3[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Wed Jul 23 22:16:56 2014 +0530
+
+    Modified Production/database.php file
+
+[33mcommit 38207e8488b7a3748b17406c7ca69737b0b26f57[m
+Author: sandesh <dalvi.sandesh@gmail.com>
+Date:   Wed Jul 23 21:38:13 2014 +0530
+
+    initial commit
