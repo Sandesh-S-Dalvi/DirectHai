@@ -128,7 +128,7 @@ return array(
 		'Intervention\Image\ImageServiceProvider',
 		'Msurguy\Honeypot\HoneypotServiceProvider',
 		'Maatwebsite\Excel\ExcelServiceProvider',
-		'Former\FormerServiceProvider',
+		// 'Former\FormerServiceProvider',
 		'Chumper\Datatable\DatatableServiceProvider',
 		'DaveJamesMiller\Breadcrumbs\ServiceProvider',
 
@@ -203,7 +203,7 @@ return array(
 		'Notification'    => 'Krucas\Notification\Facades\Notification',
 		'Image' 		  => 'Intervention\Image\Facades\Image',
 		'Excel'       	  => 'Maatwebsite\Excel\Facades\Excel',
-		'Former' 		  => 'Former\Facades\Former',
+		// 'Former' 		  => 'Former\Facades\Former',
 		'Datatable' 	  => 'Chumper\Datatable\Facades\DatatableFacade',
 		'Breadcrumbs' 	  => 'DaveJamesMiller\Breadcrumbs\Facade',
 

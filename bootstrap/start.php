@@ -29,6 +29,7 @@ $env = $app->detectEnvironment(array(
 	'local' => array('sandesh-N148-Lubuntu'),
 	'staging' => array('your-machine-name'),
 	'production' => array('directhai.gopagoda.com'),
+	'development' => array('directhai-dev.gopagoda.com'),
 
 
 ));
