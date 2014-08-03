@@ -11,19 +11,25 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+// Confide routes
+Route::get('register', 'UsersController@create');
+Route::post('users', 'UsersController@store');
+Route::get('/', 'UsersController@login');
+Route::post('users/login', 'UsersController@doLogin');
+Route::get('users/confirm/{code}', 'UsersController@confirm');
+Route::get('users/forgot_password', 'UsersController@forgotPassword');
+Route::post('users/forgot_password', 'UsersController@doForgotPassword');
+Route::get('users/reset_password/{token}', 'UsersController@resetPassword');
+Route::post('users/reset_password', 'UsersController@doResetPassword');
+Route::get('logout', 'UsersController@logout');
 
 
 
 
-// Confide RESTful route
-// Route::get('users/confirm/{code}', 'UsersController@getConfirm');
-// Route::get('users/reset_password/{token}', 'UsersController@getReset');
-// Route::get('users/reset_password', 'UsersController@postReset');
-// Route::controller( 'users', 'UsersController');
+// Route::get('/', array('before' => 'auth', function()
+// {
+// 	Redirect::
+// }));
 
 
 // Post Resourceful route
@@ -61,17 +67,3 @@ Route::get('/page/search', function()
 	return View::make('page.search')
 		->with('title',$title);
 });
-
-//
-
-// Confide routes
-Route::get('users/create', 'UsersController@create');
-Route::post('users', 'UsersController@store');
-Route::get('users/login', 'UsersController@login');
-Route::post('users/login', 'UsersController@doLogin');
-Route::get('users/confirm/{code}', 'UsersController@confirm');
-Route::get('users/forgot_password', 'UsersController@forgotPassword');
-Route::post('users/forgot_password', 'UsersController@doForgotPassword');
-Route::get('users/reset_password/{token}', 'UsersController@resetPassword');
-Route::post('users/reset_password', 'UsersController@doResetPassword');
-Route::get('users/logout', 'UsersController@logout');

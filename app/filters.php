@@ -35,11 +35,15 @@ App::after(function($request, $response)
 
 Route::filter('auth', function()
 {
-if (Auth::guest()) return Redirect::guest('user/login');
+if (Auth::guest()) return Redirect::guest('/');
 }); 
 // Only authenticated users will be able to access routes that begins with
 // 'admin'. Ex: 'admin/posts', 'admin/categories'.
 Route::when('admin*', 'auth');
+
+// Only authenticated users will be able to access routes that begins with
+// 'post'. Ex: 'post/create', 'post/edit'.
+Route::when('post*', 'auth');
 
 
 // Route::filter('auth', function()

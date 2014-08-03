@@ -23,6 +23,7 @@ web1:
     - app/storage/meta
     - app/storage/sessions
     - app/storage/views
+    - vendor/zizaco/confide
   after_build:
     - "if [ ! -f composer.phar ]; then curl -s http://getcomposer.org/installer | php; fi; php composer.phar install --prefer-source"
   after_deploy:
@@ -35,4 +36,5 @@ db1:
   name: directhai
   type: mysql
 cache1:
+  name: dh_cache
   type: redis

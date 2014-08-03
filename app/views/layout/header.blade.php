@@ -44,7 +44,7 @@
             <li><a href="#">My Posts</a></li>
             <li><a href="#">Settings</a></li>
             <li class="divider"></li>
-            <li><a href="#">Logout</a></li>
+            <li><a href="{{ URL::to('logout') }}">Logout</a></li>
           </ul>
         </li>
       </ul>
