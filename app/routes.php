@@ -24,14 +24,6 @@ Route::post('users/reset_password', 'UsersController@doResetPassword');
 Route::get('logout', 'UsersController@logout');
 
 
-
-
-// Route::get('/', array('before' => 'auth', function()
-// {
-// 	Redirect::
-// }));
-
-
 // Post Resourceful route
 Route::resource( 'post', 'PostController');
 
@@ -45,13 +37,12 @@ Route::get('/test', function()
 	/*$entities = Entity::where('shoptype_id', '>=', '1')->get();
 
 */	$entities = Entity::All();
+	echo $entities->count();
 
+	
 	/*foreach($entities as $entity)
-		echo $entity->entityname,' ', $entity->shoptype_id,'<br>';
+		echo $entity->entityname.' >>>> '. $entity->agent->email.' | '.$entity->agent->mobile1.' | '.$entity->agent->mobile2,'<br>';
 */
-	foreach($entities as $entity)
-		echo $entity->entityname/*.' >>>> '. $entity->agent->email.' | '.$entity->agent->mobile1.' | '.$entity->agent->mobile2*/,'<br>';
-
 
 	/*return View::make('test.index')
 		->with('title',$title);*/
