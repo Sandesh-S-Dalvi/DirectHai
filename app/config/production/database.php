@@ -18,8 +18,6 @@ return array(
     |
 */
 
-
-
     'profile' => false,
 
     'default' => 'production',
