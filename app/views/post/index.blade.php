@@ -9,7 +9,7 @@
 	</div>
 @endif
 
-{{ Notification::showAll() }}
+<!--{{ Notification::showAll() }}-->
 
 <table class="table table-striped" >
 	<thead>
