@@ -9,7 +9,6 @@
 		"zizaco/confide": "~4.0@dev",
 		"zizaco/entrust": "dev-master",
 		"laravelbook/ardent": "2.*",
-		"edvinaskrucas/notification": "2.*",
 		"kmd/logviewer": "1.1.*",
 		"intervention/image": "2.*",
 		"msurguy/honeypot": "dev-master",
