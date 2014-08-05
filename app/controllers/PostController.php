@@ -59,8 +59,6 @@ class PostController extends BaseController {
 		$post->amenities_id  = Input::get('amenities');
 		$post->save();
 
-		Notification::success('Record saved Successfully');
-
 		return Redirect::action('PostController@index');
 		
 	}
