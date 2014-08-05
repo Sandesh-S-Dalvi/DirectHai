@@ -40,7 +40,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">dalvi.sandesh@gmail.com</a></li>
+            <li><a href="#">{{ $users->email }}</a></li>
             <li><a href="#">My Posts</a></li>
             <li><a href="#">Settings</a></li>
             <li class="divider"></li>

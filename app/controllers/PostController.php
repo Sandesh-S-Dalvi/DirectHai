@@ -14,10 +14,12 @@ class PostController extends BaseController {
 		// /post -  Displays all post
 
 		$postss = Post::orderBy('updated_at', 'desc')->paginate(10);
+		$usr = Confide::user();
 		$title  = 'Properties';
 
 		return View::make('post.index')
 			->with('postss',$postss)
+			->with('users',$usr)
 			->with('title',$title);
 	}
 

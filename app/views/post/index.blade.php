@@ -9,8 +9,6 @@
 	</div>
 @endif
 
-<!--{{ Notification::showAll() }}-->
-
 <table class="table table-striped" >
 	<thead>
 		<tr>

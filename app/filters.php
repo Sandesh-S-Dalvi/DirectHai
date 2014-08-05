@@ -35,8 +35,10 @@ App::after(function($request, $response)
 
 Route::filter('auth', function()
 {
-if (Auth::guest()) return Redirect::guest('/');
+if (Auth::guest()) 
+	return Redirect::guest('/');
 }); 
+
 // Only authenticated users will be able to access routes that begins with
 // 'admin'. Ex: 'admin/posts', 'admin/categories'.
 Route::when('admin*', 'auth');
@@ -70,7 +72,8 @@ Route::filter('auth.basic', function()
 
 Route::filter('guest', function()
 {
-	if (Auth::check()) return Redirect::to('/');
+	if (Auth::check()) 
+		return Redirect::to('/');
 });
 
 /*
